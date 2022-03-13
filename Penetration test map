@@ -1,0 +1,31 @@
+渗透测试2022
+	渗透测试工具
+		1.burp suite    web 测试工具 
+		2.Acunetix WVS 
+		3.Xray web漏洞扫描
+		4.Goby 网络空间测绘扫描
+		5.SQLMap sql注入检测与利用
+		6.postman 模拟发包工具
+		7.HackBar 安全测试插件
+		8.nc netcat  监听 回调 
+		9.metasploit 渗透测试工具平台,免杀处理  
+渗透测试 移动手机测试都可以
+	信息搜集方法
+		主动/被动
+			爬虫 检测 请求 都是主动 /公开来源情报
+			不接触目标的情况下都是被动搜集
+		工具平台分享
+			Github
+			KALI 
+			Parrot
+			bounty-targets-data  2000多个域名. 
+漏洞奖励平台的域名! 
+		子域名IP搜集
+			证书透明度-备案查询-whois查询-搜索引擎-暴力猜测等
+			搜集工具-(  *oneforAll  subDomainsBrute  *subfinder  ESD  Amass DNSDumpster *Subdomainfinder )
+
+			端口服务搜集(-nmap 9000  脚本 端口 路由追踪 )
+			网站指纹识别(web开发时候留的版本类型,版本标记,web服务器指纹,前端框架指纹等 ( https://scan.top15.cn/web))
+			旁站C段查询(-旁站 C段  (www.webscan.cc  chapangzhan.com ))
+			WAF探测(SQLMAP-waf绕过方法 (sqlmap 支持 绕过参数)
+			敏感信息搜集(手机github相关敏感信息方法 (gitrob/gitrob 码小六/code6  gitmonitor/GitMonitor  )  制作字典( wirdhound brutescrape))
